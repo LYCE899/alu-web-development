@@ -1,0 +1,390 @@
+body {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-image: url("https://c.wallhere.com/photos/85/a2/women_face_monochrome_smiling_portrait_black_background-611746.jpg!d");
+    padding: 2% 5% 2% 5%;
+    position: absolute;
+    left: -0.025%;
+    right: -0.025%;
+    top: 0%;
+    bottom: -26.48%;
+  }
+  
+  header .logo {
+    flex: 2;
+  }
+  
+  header .btn a {
+    flex: 4;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    width: 234px;
+    left: 1200px;
+    top: 37px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  header .btn a {
+    
+    text-decoration: none;
+    color: white;
+  }
+  .Intro {
+    
+    left: 20%;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -2.6rem;
+    background-blend-mode: color;
+    background: rgba(0, 0, 0, 1);
+    background: radial-gradient(
+      85.9% 85.9% at 50% 14.1%,
+      rgba(41, 48, 61, 0.0001) 0%,
+      #071629 100%
+    );
+    color: white;
+  }
+
+  .Schooled {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  .main-title {
+    height: 151px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 150.84px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .sub-title {
+    height: 20px;
+    position: relative;
+    margin-top: -8%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.11px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 38%;
+    margin-right: 38%;
+  }
+  
+  .button {
+    background: #c271ff;
+    border-radius: 25px;
+    border: none;
+    padding: 11.2px;
+    color: white;
+    font-weight: 500;
+    filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.5));
+    position: relative;
+    align-self: center;
+    margin: 32px;
+    padding: 16px;
+    
+  }
+  
+  .add-color {
+    color: rgb(194, 113, 255);
+  }
+  .Learn {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Learn-title {
+    position: relative;
+    align-self: center;
+    padding: 32px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+  .Learn-title .add-color {
+    font-weight: 700;
+  }
+  .Instructors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .instructor {
+    width: 19%;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Instructors img {
+    border-radius: 50%;
+    max-width: 80%;
+  }
+  .instructor h3 {
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+  }
+  .instructor p {
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
+  }
+  main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: -8px;
+  }
+  
+  .presenter-quote {
+    background-color: #c271ff;
+    padding: 6%;
+  }
+  .quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+  .quote img {
+    width: 160px;
+    height: 160px;
+    margin-right: 3rem;
+  }
+  .quote blockquote {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    margin-left: 0;
+  }
+  .quote .person {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 0;
+  }
+  .quote .weather {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 0;
+  }
+  .short-videos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .short-videos h1,
+  .memberships h1,
+  .F.A.Q h1 {
+    text-align: center;
+  }
+  .short-videos h1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .F.A.Q h1 {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+  }
+  .videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .video-image {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+  }
+  .video-image h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0.1rem;
+  }
+  .video-image .video-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+  }
+  
+  .video-image .author {
+    display: flex;
+    align-items: center;
+  }
+  .author img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .author h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #c271ff;
+    margin-left: 1rem;
+  }
+  .stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .time {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: right;
+    color: #c271ff;
+  }
+  .memberships {
+    color: white;
+    background: #071629;
+    padding: 2rem;
+    width: 1440px;
+    height: 502px;
+
+
+  }
+  .memberships .add-color,
+  .short-videos .add-color {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .memberships h1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  .memberships button {
+    left: 42%;
+    left: 42.38%;
+    right: 45.38%;
+    top: 41.90%;
+    bottom: 20.36%;
+  }
+  .Becomx-member {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .Members h2 {
+    margin-bottom: 0.1rem;
+  }
+
+  .Members1 {
+    position: absolute;
+    left: 11.39%;
+    right: 70.76%;
+    bottom: 30.50%;
+
+  }
+
+  .Members2 {
+    position: absolute;
+    left: 31.11%;
+    right: 51.04%;
+    bottom: 30.50%;
+  }
+
+  .Members3 {
+    position: absolute;
+    left: 50.9%;
+    right: 31.25%;
+    bottom: 30.50%;
+
+  }
+
+  .Members4 {
+    position: absolute;
+    left: 70.76%;
+    right: 11.39%;
+    bottom: 30.50%;
+  }
+  
+
+  .FAQ h1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #071629;
+
+  }
+  
+  .faq {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .faq-text {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    width: 50%;
+    padding: 5%;
+  }
+  footer {
+    background: black;
+    padding: 1rem;
+    margin: -8px;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-ft {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 8rem 4rem 8rem;
+  }
+  
+  .nav-ft div a {
+    margin-left: 0.4rem;
+    margin-right: 0.5rem;
+  }
+  
+  .foot p {
+    color: white;
+    opacity: 0.35;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
