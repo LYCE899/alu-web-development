@@ -54,33 +54,27 @@ class BasicAuth(Auth):
             return None, None
         return tuple(decoded_base64_authorization_header.split(':', 1))
 
-
-    def user_object_from_credentials(self, user_email: str, user_pwd: str) -> TypeVar('User'):
+    def user_object_from_credentials(
+            self,
+            user_email: str,
+            user_pwd: str
+            ) -> TypeVar('User'):
         """user object from credentials"""
-        if user_email is None or not isinstance(user_email, str):
-            print("Invalid email: None or not a string")
+        if user_email is None or type(user_email) is not str:
             return None
-        if user_pwd is None or not isinstance(user_pwd, str):
-            print("Invalid password: None or not a string")
+        if user_pwd is None or type(user_pwd) is not str:
             return None
 
         users = User.search({'email': user_email})
 
         if not users:
-            print(f"No users found with email: {user_email}")
             return None
         if users is None or len(users) == 0:
-            print(f"No users found with email (empty list): {user_email}")
             return None
-
         for user in users:
             if user.is_valid_password(user_pwd):
-                print(f"User found: {user}")
                 return user
-        
-        print("No valid user found")
         return None
-
 
     def current_user(self, request=None) -> TypeVar('User'):
         """current user"""
